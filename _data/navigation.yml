@@ -1,21 +1,21 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Project"
     url: /publications/
 
-  - title: "Talks"
+  - title: "Dataset 1"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Dataset 2"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Dataset 3"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Dataset 4"
     url: /year-archive/
     
-  - title: "CV"
+  - title: "Dataset 5"
     url: /cv/
     
   - title: "Guide"

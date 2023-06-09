@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Although there are large repositories of open datasets (eg Kaggle, Google’s Dataset Search, DataQuest) these lack examples of production data suitable for teach data carpentry and machine learning skills. However, three cohorts of Bayes funded students have now completed the “Data Science for Manufacturing’ Course and almost 20 of them have used industrial data for their individual projects.  This project  facilitated the creation of GDPR complaint datasets and exemplar notebooks from the student’s work to create a unique resource of industrial data suitable for teaching and research. The vision is to create a repository with a focus on data relevant to industrial processes.
+Although there are large repositories of open datasets (eg Kaggle, Google’s Dataset Search, DataQuest) these lack examples of production data suitable for teach data carpentry and machine learning skills. This project  facilitated the creation of GDPR complaint datasets and exemplar notebooks from the student’s work to create a unique resource of industrial data suitable for teaching and research. The vision is to create a repository with a focus on data relevant to industrial processes.
 
 
 Aims & Objectives 

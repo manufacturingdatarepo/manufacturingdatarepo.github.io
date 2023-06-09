@@ -1,23 +1,27 @@
 ---
 permalink: /
-title: "about page"
-excerpt: "About me"
+title: "About the project"
+excerpt: "About the project"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+Although there are large repositories of open datasets (eg Kaggle, Google’s Dataset Search, DataQuest) these lack examples of production data suitable for teach data carpentry and machine learning skills. However, three cohorts of Bayes funded students have now completed the “Data Science for Manufacturing’ Course and almost 20 of them have used industrial data for their individual projects.  This project  facilitated the creation of GDPR complaint datasets and exemplar notebooks from the student’s work to create a unique resource of industrial data suitable for teaching and research. The vision is to create a repository with a focus on data relevant to industrial processes.
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven project website
+Aims & Objectives 
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+One issue with current paradigms is that there are limited resources on manufacturing data that are tailored for learning. Moreover, most manufacturing labelled data are datasets with financial data instead of manufacturing process data. Another issues is that current datasets are not as usable since they have millions of datapoints that are hard to process and work with when learning data science. 
 
-**Markdown generator**
+With this project we aim to:
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+•	Improve the ease of use by creating small, manageable datasets that can be used along with computational thinking in project-based learning for engineers
+•	Contribute to open resources as these datasets will be public and could be the basis for a new lesson in the future
+
+The target audience:
+•	university students, 
+•	industrial employees looking to upskill or reskill
+•	whoever wants to learn data science in a manufacturing context
 

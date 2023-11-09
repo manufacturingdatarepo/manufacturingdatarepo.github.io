@@ -1,7 +1,5 @@
 # main links links
 main:
-  - title: "Project"
-    url: /publications/
 
   - title: "Dataset 1"
     url: /talks/    

@@ -5,12 +5,18 @@ permalink: /data1/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+## Name of facility: 
+EnergiCorp
+</br>
+In a fictional nuclear energy factory named EnergiCorp, the need arises to analyse radiation exposure data for employees to ensure the continued safety and well-being of the workforce. The facility operates nuclear reactors and other radiation-emitting equipment to generate electricity, adhering to stringent safety protocols and regulatory requirements. As part of the radiation protection program, comprehensive data analysis is required to assess employee radiation exposure levels and identify potential areas of improvement in radiation safety measures.
+Problem statement:
+EnergiCorp faces challenges in effectively analysing the radiation exposure data, leading to the following problem statement:
+EnergiCorp lacks a streamlined and efficient process to analyse and interpret radiation exposure data for its employees, hindering the identification of patterns, trends, and potential areas of concern.
+The goal of this project is to do a day shift and night shift comparison by using machine learning to predict a certain amount of radiation a person will take over a given time frame.
+The tasks we do within a radioactive environment use a unique number; the people doing this task will get an EPD (Electronic Personal Dosimeter) and they have to tell the Health Physics Monitor what task id they will go down on before the issue of the EPD this will track there dose and time within the radioactive environment.
+What we know about the datasets:
+•	The name is 'employee_' followed by a number
+•	You can have duplicates on all individual columns but not row-by-row duplicates
+•	Time In and Time Out columns should only include datetime64 data types
+•	No body dose should exceed 0.05
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}

@@ -7,13 +7,35 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Company name: Advance Forming Research Centre</title>
+</head>
+
+<body>
+    <h1>Company name: Advance Forming Research Centre</h1>
+
+    <p><strong>Company Description:</strong> The Advanced Forming Research Centre (AFRC) is a globally-recognized center of excellence in forming and forging research located in Glasgow, Scotland. It operates under the National Manufacturing Institute Scotland (NMIS) and is a part of the High Value Manufacturing (HVM) Catapult, indicating its crucial role in advancing UK manufacturing capabilities. The center spans an impressive 5,680 square meters of research space where engineers and researchers are dedicated to enhancing manufacturing products and processes. One of the processes studied is heat treatment which is a crucial step in many high-value manufacturing processes where it is used to alter the physical and sometimes chemical properties of a material to meet specific engineering requirements. For example, heat treatment can increase the strength, toughness, and wear resistance of metals, which is essential for components that will undergo high stress or need to have a long service life.</p>
+
+    <h2>Data:</h2>
+
+    <p>The dataset relates to an industrial furnace used to heat treat large metallic components that is powered by two natural gas burners and has a number of operational parameters (combustion air and gas flow rates, oxygen concentration, ambient temperature, doors open or closed, temperatures at different points within the furnace, etc.) all of which affect its operating temperature. The dataset records the output of 47 individual sensors whose output is recorded at a fixed time interval of 2s (frequency of 0.5 Hz) and consists of multiple CSV files (one per sensor/per ~day approx.). All the data is collected as a time series and was recorded from the heating treatment of steel parts at 1100°C for various oxygen concentrations within the furnace (different air-to-fuel ratio settings on the burners) as well as a test run of the furnace beforehand. The total duration is more than a month.</p>
+
+    <h2>Problem Statement:</h2>
+
+    <p>The overall brief is for visualization and analysis of the data from the industrial furnace. Specific aims of an investigation of the data could be:</p>
+
+    <ol>
+        <li>Time to reach steady state from internal wall (sensors TCs: Roof_0104_300_01 to 05)</li>
+        <li>Quantify Gas consumption</li>
+        <li>Define the Relationship between Burner usage versus Target temperature</li>
+        <li>Identify the parameters that have the biggest influence on the temperature of the internal walls</li>
+    </ol>
+
+    <!-- Download Link -->
+    <h1><a href="files/data4.zip" download>Download Data</a></h1>
+</body>
+
+</html>

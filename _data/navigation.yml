@@ -2,19 +2,19 @@
 main:
 
   - title: "Dataset 1"
-    url: /talks/    
+    url: /data1/    
 
   - title: "Dataset 2"
-    url: /teaching/    
+    url: /data2/    
     
   - title: "Dataset 3"
-    url: /portfolio/
+    url: /data3/
         
   - title: "Dataset 4"
-    url: /year-archive/
+    url: /data4/
     
   - title: "Dataset 5"
-    url: /cv/
+    url: /data5/
     
   - title: "Guide"
     url: /markdown/

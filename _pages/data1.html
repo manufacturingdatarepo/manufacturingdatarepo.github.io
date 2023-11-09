@@ -5,19 +5,24 @@ permalink: /data1/
 author_profile: true
 ---
 
-## Name of facility: 
-EnergiCorp
-</br>
-In a fictional nuclear energy factory named EnergiCorp, the need arises to analyse radiation exposure data for employees to ensure the continued safety and well-being of the workforce. The facility operates nuclear reactors and other radiation-emitting equipment to generate electricity, adhering to stringent safety protocols and regulatory requirements. As part of the radiation protection program, comprehensive data analysis is required to assess employee radiation exposure levels and identify potential areas of improvement in radiation safety measures.
-Problem statement:
-EnergiCorp faces challenges in effectively analysing the radiation exposure data, leading to the following problem statement:
-EnergiCorp lacks a streamlined and efficient process to analyse and interpret radiation exposure data for its employees, hindering the identification of patterns, trends, and potential areas of concern.
-The goal of this project is to do a day shift and night shift comparison by using machine learning to predict a certain amount of radiation a person will take over a given time frame.
-The tasks we do within a radioactive environment use a unique number; the people doing this task will get an EPD (Electronic Personal Dosimeter) and they have to tell the Health Physics Monitor what task id they will go down on before the issue of the EPD this will track there dose and time within the radioactive environment.
-What we know about the datasets:
+# Name of facility: EnergiCorp
 
-*	The name is 'employee_' followed by a number
-*	You can have duplicates on all individual columns but not row-by-row duplicates
-*	Time In and Time Out columns should only include datetime64 data types
-*	No body dose should exceed 0.05
+In a fictional nuclear energy factory named EnergiCorp, the need arises to analyze radiation exposure data for employees to ensure the continued safety and well-being of the workforce. The facility operates nuclear reactors and other radiation-emitting equipment to generate electricity, adhering to stringent safety protocols and regulatory requirements. As part of the radiation protection program, comprehensive data analysis is required to assess employee radiation exposure levels and identify potential areas of improvement in radiation safety measures.
+
+## Problem Statement
+
+EnergiCorp faces challenges in effectively analyzing the radiation exposure data, leading to the following problem statement:
+
+**Problem:** EnergiCorp lacks a streamlined and efficient process to analyze and interpret radiation exposure data for its employees, hindering the identification of patterns, trends, and potential areas of concern.
+
+**Goal:** The goal of this project is to perform a day shift and night shift comparison using machine learning to predict a certain amount of radiation a person will receive over a given time frame. The tasks performed within a radioactive environment are associated with a unique task ID. Employees performing these tasks will receive an Electronic Personal Dosimeter (EPD) and must inform the Health Physics Monitor of the task ID they will be working on before the issuance of the EPD. This system will track their dose and time spent within the radioactive environment.
+
+## What We Know About the Datasets
+
+Here's what we know about the datasets:
+
+- The name is 'employee_' followed by a number.
+- Duplicates are allowed on all individual columns, but row-by-row duplicates should be avoided.
+- Columns 'Time In' and 'Time Out' should only include datetime64 data types.
+- No body dose should exceed 0.05.
 

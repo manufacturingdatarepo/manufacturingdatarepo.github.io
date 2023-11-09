@@ -16,5 +16,5 @@ main:
   - title: "Dataset 5"
     url: /data5/
     
-  - title: "Guide"
-    url: /markdown/
+    #- title: "Guide"
+    #url: /markdown/

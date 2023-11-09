@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<!DOCTYPE html>
-<html>
 
 <head>
     <title>Company Name: ForgeOptics Solutions, Inc.</title>
@@ -42,7 +40,7 @@ redirect_from:
   <p>This problem statement outlines the need to address the quality variability in radial forging and the role of data science in providing insights and solutions to ensure a consistent and high-quality manufacturing process.</p>
 
     <!-- Download Link -->
-  <p><a href="files/data5.zip" download>Download Data</a></p>
+  <h1><a href="files/data5.zip" download>Download Data</a></h1>
 </body>
 
 </html>
